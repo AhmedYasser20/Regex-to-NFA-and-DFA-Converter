@@ -13,6 +13,8 @@ This repository contains a command-line tool and associated scripts for converti
 
 ## Description
 
+![image](https://github.com/AhmedYasser20/Regex-to-NFA-and-DFA-Converter/assets/93765400/81138c8d-40c6-4312-bd70-fb33eb2fba8a)
+
 This project implements a command-line tool to:
 1. Convert a regular expression into a Non-deterministic Finite Automaton (NFA) using Thompson's construction algorithm.
 2. Convert the generated NFA into a minimized Deterministic Finite Automaton (DFA).
@@ -68,7 +70,7 @@ To convert a regular expression to an NFA and minimize it to a DFA, use the foll
 
 To use the tool in Google Colab, follow these steps:
 
-1. Open the provided Colab notebook: [NFA to DFA Converter](link_to_colab_notebook)
+1. Open the provided Colab notebook: [NFA to DFA Converter](https://colab.research.google.com/drive/1z2lr8--9hYPoLuGCOUfTwex9yeWVnDOd?usp=sharing)
 2. Run the notebook cells to upload your input regular expression or NFA JSON file.
 3. The notebook will generate the JSON files and graphical representations for both the NFA and the DFA.
 
@@ -99,7 +101,8 @@ python convert_to_nfa.py "[A-Za-z]+[0-9]*"
 ```
 
 **Graphical Representation:**
-![NFA Graph](path/to/nfa_graph.png)
+![image](https://github.com/AhmedYasser20/Regex-to-NFA-and-DFA-Converter/assets/93765400/5ec9e6a0-48ce-4295-97b4-96413d283c1b)
+
 
 ### Example NFA Minimization
 
@@ -126,5 +129,7 @@ python minimize_nfa.py path/to/nfa.json
 ```
 
 **Graphical Representation:**
-![DFA Graph](path/to/dfa_graph.png)
+![image](https://github.com/AhmedYasser20/Regex-to-NFA-and-DFA-Converter/assets/93765400/ccb24177-c47e-4437-b777-41909b9b6916)
+
+
 
