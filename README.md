@@ -78,10 +78,7 @@ To use the tool in Google Colab, follow these steps:
 
 ### Example Regular Expression Conversion
 
-**Input:**
-```bash
-python convert_to_nfa.py "[A-Za-z]+[0-9]*"
-```
+
 
 **Output JSON (NFA):**
 ```json
@@ -106,10 +103,7 @@ python convert_to_nfa.py "[A-Za-z]+[0-9]*"
 
 ### Example NFA Minimization
 
-**Input:**
-```bash
-python minimize_nfa.py path/to/nfa.json
-```
+
 
 **Output JSON (DFA):**
 ```json
